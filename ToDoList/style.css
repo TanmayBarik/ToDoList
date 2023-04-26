@@ -1,0 +1,97 @@
+body{
+  background-color:#edd8bd;
+  display: flex;
+  justify-content: center;
+}
+
+*{
+  color: #edd8bd;
+  font-family: "Lucida Console";
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+li {
+  overflow: hidden;
+  background-color: #8b5760;
+  position: relative;
+  left: -30px;
+  list-style-type: none;
+  padding: 5px 0px 3px 10px;
+  margin-top: 3px;
+  width: 232px;
+  height: 29px;
+}
+
+.container{
+  background-color: #3b313c;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+
+button{
+  background-color: #8b5760;
+  margin-top:10px;
+  margin-right:10px;
+}
+
+input{
+  color:#3b313c;
+  margin-bottom: 20px;
+  margin-left:10px;
+  position: relative;
+  top: 12px;
+}
+
+i{
+  margin:0 10px;
+}
+
+i.tick{
+  position: absolute;
+  right: 26px;
+  margin-top:0px;
+  border:1px solid #3b313c;
+}
+
+i.tick:hover{
+  transition: 0.3s;
+  background-color: #edd8bd;
+  color: #3b313c;
+  cursor: pointer;
+}
+
+i.bin{
+  position: absolute;
+  right:-3px;
+  margin-top: 0px;
+  border:1px solid #3b313c;
+  cursor: pointer;
+}
+
+i.bin:hover{
+  transition: 0.3s;
+  background-color: #edd8bd;
+  color: #3b313c;
+}
+
+.add{
+  position: relative;
+  right: 10px;
+  top: 20px;
+  margin-top: 5px;
+  border:1px solid #8b5760;
+}
+
+.add:hover{
+  transition: 0.3s;
+  background-color: #edd8bd;
+  color: #3b313c;
+}
+
